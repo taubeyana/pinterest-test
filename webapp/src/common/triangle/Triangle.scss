@@ -1,0 +1,56 @@
+.triangle-up {
+    border: 10px solid transparent;
+    border-top: none;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    right: -10px;
+    top: 1px;
+}
+.triangle-border-up {
+    border: 11px solid transparent;
+    border-top: none;
+    width: 0;
+    height: 0;
+    border-bottom: 11px solid #EFEFEF;
+    position: absolute;
+    right: 12px;
+    top: -11px;
+}
+
+.triangle-border-right {
+    border: 11px solid transparent;
+    border-right: none;
+    border-left: 11px solid #EFEFEF;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -12px;
+    top: 10px;
+}
+
+@mixin triangle($direction, $color, $big, $small) {
+    border: $small solid transparent;
+    border-#{$direction}: none;
+    width: 0;
+    height: 0;
+    
+    @if ($direction == top) {
+        border-bottom: $big solid $color;
+    }@else if ($direction == left) {
+        border-right: $big solid $color;
+    }@else if ($direction == bottom) {
+        border-top: $big solid $color;
+    }@else if ($direction == right) {
+        border-left: $big solid $color;
+    }
+  }
+  
+  .triangle-right {
+      @include triangle(right,white ,12px ,10px );
+        position: absolute;
+        right: 0px;
+        top: -10px;
+
+  }

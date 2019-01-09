@@ -1,0 +1,27 @@
+.footer-buttons {
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    background: #EFEFEF;
+    width: 100vw;
+    opacity: 0.9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5E5E5E;
+    .footer-btn {
+        flex-direction: column;
+        margin: 0 15px;
+        span {
+            font-size: 12px;
+            font-weight: inherit;
+        }
+        .faIcon {
+            font-size: 23px;
+        }
+        img, .faIcon, span {
+            margin: 0
+        }
+    }
+}

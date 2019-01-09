@@ -1,0 +1,22 @@
+.close-btn.btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+    .times-faIcon {
+        padding: 2px 5px;
+        font-size: 25px;
+    }
+    &:hover {
+        background: #efefef;
+    }
+    &:focus {
+        border: none;
+    }
+
+    &:active {
+        border: 3px solid #7FC1FF;
+    }
+}

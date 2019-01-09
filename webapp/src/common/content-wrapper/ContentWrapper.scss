@@ -1,0 +1,12 @@
+.content-wrapper {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.flex-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,28 @@
+.wrapper-404 {
+    position: relative;
+    // width: fit-content;
+    // margin: 30px auto;
+    img {
+        height: 250px;
+    }
+    h1 {
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        font-size: 55px;
+        color: crimson;
+    }
+    h2 {
+        color: crimson;
+        margin: 0;
+        font-size: 30px;
+    }
+    span {
+        font-size: 20px;
+    }
+    .home-btn:hover {
+        background: none;
+        color: crimson
+    }
+    
+}

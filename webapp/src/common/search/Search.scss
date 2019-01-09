@@ -1,0 +1,30 @@
+.search {
+    width: 68%;
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    background-color: #EFEFEF;
+}
+.search-icon {
+    margin-left: 17px;
+    font-size: 21px;
+}
+
+.search input {
+    background-color: inherit;
+    padding: 11px;
+    font: inherit;
+    border-radius: inherit;
+    margin-left: 4px;
+    width: 100%;
+}
+
+.mobile-search {
+    width: 96%;
+    margin: 10px auto;
+    color: #8E8E8E;
+}

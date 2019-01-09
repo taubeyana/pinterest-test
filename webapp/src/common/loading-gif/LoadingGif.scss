@@ -1,0 +1,9 @@
+.loading-gif {
+    width: 50px;
+    margin: auto;
+    position: fixed ;
+    left: 50% ;
+    top: 130px;
+    transform: translateX(-50%);
+    z-index: -1
+}

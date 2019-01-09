@@ -1,0 +1,44 @@
+.header-tabs {
+    display: flex;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.active-header-tab {
+    color: black
+}
+.header-tab.link-btn {
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    & span {
+        margin: unset;
+    }
+    & .faIcon {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1090px) {
+    .header-tab.link-btn {
+        border-radius: 50%;
+        padding: 0;
+        & span {
+            display: none;
+        }
+        & .faIcon, img {
+        display: block;
+        padding: 12px;
+        border-radius: 50%;
+        font-size: 23px;
+        }
+        & img {
+            margin: 0;
+        }
+        & .fa-user-friends {
+            font-size: 20px;
+        }
+
+    }
+}

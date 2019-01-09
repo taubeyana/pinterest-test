@@ -1,0 +1,49 @@
+
+.profile-page-wrapper {
+    overflow: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 65px;
+    .profile-picture {
+        height: 180px;
+        width: 180px;
+        border: 6px solid white;
+        position: relative;
+        left: 40px;
+        img {
+            border: 5px solid white;
+        }
+    }
+    .images-background {
+        height: 215px;
+        width: 100%;
+        background-image: url(https://res.cloudinary.com/dat4frntv/image/upload/v1540101322/kxzmknujg7ogwikfhxb5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        opacity: 0.8
+        
+    }
+    .profile-page {
+        position: relative;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 110px;
+        
+        margin-bottom: 60px;
+    }
+    h1 {
+        margin: 10px 5px 5px 10px;
+        font-size: 50px
+    }
+    .about-user {
+        color: lighten(#000000,30%)
+    }
+    p {
+        font-style: italic;
+        font-size: 20px
+    }
+}

@@ -1,0 +1,46 @@
+.btn, .link-btn {
+    padding: 6px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn:hover, .link-btn:hover {
+    background: #EFEFEF;
+}
+.btn-img {
+    width: 25px;
+    height: 25px;
+}
+.btn span, .link-btn span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.btn .btn-img,
+.link-btn .btn-img
+{
+    margin-right: 5px;
+}
+.gray-btn {
+    background: #EFEFEF;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.gray-btn:hover {
+    background: #E2E2E2;
+    
+}
+.red-btn {
+    background: #BD081C;
+    color: white;
+}
+.red-btn:hover {
+    background: #AD081B;
+}
+.btn-text {
+    padding: 15px;
+    color: lightgray;
+    cursor: not-allowed;
+}

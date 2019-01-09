@@ -1,0 +1,40 @@
+input, textarea {
+  border: none;
+  outline: none;
+  font: inherit;
+  resize: none; }
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  outline: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.App {
+  position: relative;
+  color: #333333; }
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto; }
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto; }

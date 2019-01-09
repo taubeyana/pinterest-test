@@ -1,0 +1,58 @@
+.pin {
+    width: 240px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: zoom-in;
+    &:hover {
+        background-color: #F2F2F2;
+        .img-wrapper {
+            background-color: black;
+        }
+         img {
+            opacity: 0.8;
+        }
+    }
+}
+.pin .img-wrapper img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+    border-radius: inherit;
+    max-height: 500px;
+    vertical-align: middle;
+}
+.pin .img-wrapper {
+    background-color: #F2F2F2;
+    position: relative;
+    border-radius: inherit;
+    .pin-link {
+        position: absolute;
+        bottom: 15px;
+        left: 10px;
+        border-radius: inherit;
+        display: none;
+    }
+    &:hover {
+        .pin-link {
+            display: flex;
+            background: white
+        }
+    }
+}
+ .navlink {
+     cursor: inherit;
+     border-radius: inherit;
+     display: inherit
+ }
+
+.pin .options-wrapper {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    cursor:auto; 
+}
+

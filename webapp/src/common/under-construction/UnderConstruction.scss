@@ -1,0 +1,21 @@
+.under-construction-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: fit-content;
+    .img-wrapper {
+        width: 200px;
+        img {
+            width: 100%;
+        }
+    }
+    h1 {
+        margin: 0;
+        font-size: 40x;
+        width: 320px;   
+        color:#8E8E8E;
+    }
+    
+}

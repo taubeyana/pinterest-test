@@ -1,0 +1,66 @@
+.pin-page-wrapper {
+    background-color: #EEEEEE;
+    width: 100%;
+    top: 0;
+    z-index: 500;
+    .home-btn {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        border-radius: 10px;
+        .faIcon {
+            font-size: 30px;
+            margin-right: 5px
+        }
+        &:hover {
+            background-color: darken( #EEEEEE, 10%)
+        }
+    }
+    
+}
+.pin-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px auto;
+    width: fit-content;
+    border: 1px lightgray solid;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    .img-wrapper {
+        width: 320px;
+        display: flex;
+        // background-color: black;
+        border-radius: 10px;
+        img {
+            width: 100%;
+            border-radius: inherit;
+            vertical-align: middle;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+        &:hover {
+            background-color: black;
+        }
+        
+    }
+    .pin-details {
+        width: 300px;
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+    }
+    .img-wrapper, .pin-details {
+        margin: 5px 15px;
+    }
+    .pin-link.gray-btn {
+        border-radius: 7px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+

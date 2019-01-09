@@ -1,0 +1,28 @@
+.select-menu-header { 
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 224px;
+    cursor: pointer;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none; 
+}
+.select-menu-header .save-btn { 
+    padding: 10px;
+}
+
+.select-wrapper > span { 
+    color: #959595
+}
+.select-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background: #EFEFEF;
+}

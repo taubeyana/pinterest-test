@@ -1,0 +1,25 @@
+{
+  "name": "pinterest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "cd webapp && npm run build",
+    "startreact":  "cd webapp && npm start",
+    "installserver": "cd server && npm i",
+    "server": "cd server && npm start",
+    "postinstall": "npm run react && npm run installserver",
+    "start": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taubeyana/Pinterest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taubeyana/Pinterest/issues"
+  },
+  "homepage": "https://github.com/taubeyana/Pinterest#readme"
+}

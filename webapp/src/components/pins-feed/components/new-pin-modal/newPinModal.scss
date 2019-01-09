@@ -1,0 +1,96 @@
+@import '../../../../vars';
+
+.new-pin-modal {
+    overflow: hidden;
+    form {
+        display: grid;
+        grid-template-rows: 15% 73% 12%;
+        height: 100%;
+    }
+    h1 {
+        grid-row: 1/2;
+        margin: 20px 0;
+        padding: 0px;
+        font-size: 25px;
+        border-bottom: 1px solid #EFEFEF;
+        text-align: center;
+    }
+    .modal-content-wrapper {
+        grid-row: 2/3;
+        display: flex;
+        width: 80%;
+        flex-direction: row;
+        margin: 25px auto;
+        .upload-zone {
+            height: 360px;
+            width: 40%;
+            border: dashed 2px #8E8E8E;
+            border-radius: 10px;
+        }
+        span {
+            padding: 5px;
+        }
+        .form-input-wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-left: 25px;
+            background-color: inherit;
+            width: 60%;
+
+        }
+        .fromUrl-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto; 
+            .form-input {
+                width: 265px;
+            }
+        }
+        .form-input, .form-textarea {
+            padding: 9px;
+            border-radius: 5px;
+            border: 1px solid #8E8E8E;
+            margin-bottom: 25px;
+        }
+        .form-textarea {
+            height: 165px;
+        }
+        
+    }
+    .modal-footer-buttons {
+        grid-row: 3/4;
+        padding: 15px;
+        border-top: 1px solid $bordercolorgray;
+        color: gray;
+    }
+    .btn {
+        border-radius: 5px;
+        background: $bordercolorgray;
+        padding: 5px;
+        & span {
+            padding: 5px;
+            margin: 0;
+        }
+        &:active {
+            border: 3px solid #7FC1FF;
+        }
+        &.focused-btn {
+            border: 1px solid $bordercolorgray;
+            background-color: white;
+            color: black;
+        }
+    }
+
+}
+
+.submit-btn.btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #AD081B;
+    color: white;
+    &:hover {
+        background: darken(#AD081B,10%)
+    }
+}

@@ -1,0 +1,24 @@
+.dropzone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.loading-gif {
+    position: absolute;
+}
+
+.dz-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .fa-camera {
+        font-size: 30px;
+    }
+        span {
+        width: 135px;
+        text-align: center;
+        font-weight: bold;
+    }
+}

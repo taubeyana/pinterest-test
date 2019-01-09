@@ -1,0 +1,20 @@
+.add-menu {
+    position: fixed;
+    right: 25px;
+    bottom: 50px;
+    border-radius: 50%;
+    background: white;
+    z-index: 500;
+    box-shadow: 0px 2px 2px 0px lightgrey;
+}
+.add-menu .items-outer-wrapper {
+    top: 3px;
+    right: 54px;
+    display: block;
+}
+.add-menu {
+    box-shadow: 0px 2px 2px 0px lightgrey;
+}
+.upload-btn {
+    border-bottom: 1px solid #EFEFEF;
+}
